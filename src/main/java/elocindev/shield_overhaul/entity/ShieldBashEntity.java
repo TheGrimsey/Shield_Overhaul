@@ -53,7 +53,7 @@ public class ShieldBashEntity extends PersistentProjectileEntity {
 
     @Override
     protected ItemStack asItemStack() {
-        return null;
+        return ItemStack.EMPTY;
     }
 
     @Override
